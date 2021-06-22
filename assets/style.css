@@ -15,7 +15,7 @@ a {
 
 section {
     height: 100vh;
-    background-image:url("/assets/images/image-1.jpg") ;
+    background-image:url("/assets/images/sample-7.jpg") ;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -28,7 +28,7 @@ header {
 
 footer {
     position: fixed;
-    bottom: 20px;
+    bottom: 50px;
     left: 30px;
 }
 
@@ -48,39 +48,70 @@ a:hover {
 }
 
 .image_2 {
-    background-image: url("/assets/images/image-2.jpg");
+    background-image: url("/assets/images/sample-8.jpg");
     background-color: black;
 }
 
 .image_3 {
-    background-image: url("/assets/images/image-3.jpg");
+    background-image: url("/assets/images/sample.jpg");
 }
 
 .image_4 {
-    background-image: url("/assets/images/image-4.jpg");
+    background-image: url("/assets/images/sample-2.jpg");
     background-color: black;
 }
 
 .image_5 {
-    background-image: url("/assets/images/image-5.jpg");
+    background-image: url("/assets/images/sample-3.jpg");
 }
 
 .image_6 {
-    background-image: url("/assets/images/image-6.jpg");
+    background-image: url("/assets/images/sample-4.jpg");
 }
 
 .image_7 {
-    background-image: url("/assets/images/image-7.jpg");
+    background-image: url("/assets/images/sample-5.jpg");
 }
 
 .image_8 {
-    background-image: url("/assets/images/image-8.jpg");
+    background-image: url("/assets/images/sample-6.jpg");
 }
 
 .image_9 {
-    background-image: url("/assets/images/image-9.jpg");
+    background-image: url("/assets/images/sample-9.jpg");
 }
 
 .image_10 {
-    background-image: url("/assets/images/image-10.jpg");
+    background-image: url("/assets/images/sample-10.jpg");
+}
+
+.image_11 {
+    background-image: url("/assets/images/sample-11.jpg");
+}
+
+@media (max-width: 600px) {
+
+    header {
+        top:20px;
+        left: 20px;
+    }
+
+    footer {
+        bottom: 20px;
+        left:20px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    section {
+        height: 75vw;
+        background-attachment: scroll;
+    }
+    
 }
